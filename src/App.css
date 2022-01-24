@@ -1,0 +1,37 @@
+.app{
+  height: 100vh;
+}
+.container {
+  display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+ }
+.row{
+  height: 70px;
+  width:70px;
+  background-color: red;
+  }
+.container-one{
+  display: flex;
+ flex-direction: row;
+ margin-bottom: 10px;
+ justify-content: space-between;
+}
+.container-tow{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 70vh;
+  margin-top: 10px;
+ }
+.container-four{
+  display: flex;
+  flex-direction: column;
+ direction: rtl;
+ justify-content: space-between;
+ height: 70vh;
+ }
+.cont{
+  display: flex;
+  justify-content: space-between;
+}
